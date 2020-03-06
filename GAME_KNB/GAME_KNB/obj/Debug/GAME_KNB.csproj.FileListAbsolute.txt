@@ -1,0 +1,7 @@
+C:\Users\Grom201\source\repos\GAME_KNB\GAME_KNB\obj\Debug\GAME_KNB.csprojAssemblyReference.cache
+C:\Users\Grom201\source\repos\GAME_KNB\GAME_KNB\obj\Debug\GAME_KNB.csproj.CoreCompileInputs.cache
+C:\Users\Grom201\source\repos\GAME_KNB\GAME_KNB\bin\Debug\GAME_KNB.exe.config
+C:\Users\Grom201\source\repos\GAME_KNB\GAME_KNB\bin\Debug\GAME_KNB.exe
+C:\Users\Grom201\source\repos\GAME_KNB\GAME_KNB\bin\Debug\GAME_KNB.pdb
+C:\Users\Grom201\source\repos\GAME_KNB\GAME_KNB\obj\Debug\GAME_KNB.exe
+C:\Users\Grom201\source\repos\GAME_KNB\GAME_KNB\obj\Debug\GAME_KNB.pdb

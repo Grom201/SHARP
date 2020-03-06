@@ -3,29 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using GAME_KNB;
+using Rock_Paper_Scissors_Game;
 
 
-namespace GAME_KNB
+namespace Rock_Paper_Scissors_Game
 {
 
 
 
     class Game
     {
-        int countWins = 0;
-        int countLoses = 0;
-        int countDraws = 0;
-
-        static int youChoose;
-
-      public  static int computerChoose;
-      
-
-
-    
-        
-        public static int Choose(int i)
+       private int countWins = 0;
+        private int countLoses = 0;
+        private int countDraws = 0;
+        public int youChoose;
+      public int computerChoose;
+       
+        public  int ChooseTurn(int i)
         {
             switch (i)
             {
@@ -65,6 +59,7 @@ namespace GAME_KNB
             {
                 countDraws++;
             }
+
             if (youChoose == 3 & computerChoose == 1)
             {
                 countWins ++;
@@ -72,7 +67,7 @@ namespace GAME_KNB
             else if (youChoose == 3 & computerChoose == 2)
             { 
             countLoses++;
-        }
+            }
             else if (youChoose == 3 & computerChoose == 3)
             {
                 countDraws++;

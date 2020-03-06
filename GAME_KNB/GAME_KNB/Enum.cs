@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GAME_KNB
+namespace Rock_Paper_Scissors_Game
 {
     public class Enum
     {

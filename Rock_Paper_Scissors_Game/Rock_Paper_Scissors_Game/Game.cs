@@ -13,29 +13,16 @@ namespace Rock_Paper_Scissors_Game
 
     class Game
     {
-       private int countWins = 0;
+        private int countWins = 0;
         private int countLoses = 0;
         private int countDraws = 0;
         public int youChoose;
-      public int computerChoose;
-       
-        public  int ChooseTurn(int i)
+        public int computerChoose;
+
+        public int ChooseTurn(int i)
         {
-            switch (i)
-            {
-                case 3:
-                    computerChoose = Random();
-                    youChoose = (int)Enum.Variant.Paper;
-                    break;
-                case 1:
-                    computerChoose = Random();
-                    youChoose = (int)Enum.Variant.Rock;
-                    break;
-                case 2:
-                    computerChoose = Random();
-                    youChoose = (int)Enum.Variant.Scissors;
-                    break;
-            }
+                    youChoose = i;
+            computerChoose = Random();
             return youChoose;
         }
 
